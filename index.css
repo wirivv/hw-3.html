@@ -107,12 +107,22 @@ text-decoration: none;
 }
 
 .li-strategy {
-    margin-right: 24px;
+    margin-right: 0;
 }
 
+.svg {
+    display: flex;
+    justify-content: center;
+    background-color: #2E2F42;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    margin-right: 0;
+}
 
 .h2 {
     color: #2E2F42;
+    margin-top: 0;
 }
 
 .p-strategy {
@@ -184,6 +194,30 @@ text-decoration: none;
     justify-content: center;
 }
 
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+.ul-icon {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.use{
+    border-radius: 50%;
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+
+
 .tom {
     margin-right: 24px;
     background-color: whitesmoke;
@@ -199,11 +233,43 @@ text-decoration: none;
     background-color: whitesmoke;
 }
 
+.div-logo {
+    margin-bottom: 120px;
+}
+
+.h2-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+
+.ul-logo {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.li-logo{
+    width: 168px;
+    height: 88px;
+    border-color: #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .footer {
+    display: flex;
+    /* justify-content: space-around; */
     width: 1440px;
     height: 312px;
     background-color: #2E2F42;
 }
+
+
 
 
 .ul-footer {
@@ -221,6 +287,37 @@ text-decoration: none;
     padding-left: 150px;
     width: 264px;
     color: #F4F4FD;
+}
+
+.div-footer {
+    display: flex;
+}
+
+.li-p{
+    display: flex;
+}
+
+
+.p-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.li-social {
+    width: 168px;
+    height: 88px;
+    border-color: #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
