@@ -262,6 +262,7 @@ text-decoration: none;
 
 
 .footer {
+    position: absolute;
     display: flex;
     /* justify-content: space-around; */
     width: 1440px;
@@ -305,20 +306,48 @@ text-decoration: none;
 }
 
 .ul-social {
+    position: relative;
+    top: 100px;
     list-style: none;
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    position: absolute;
 }
 
 .li-social {
+    position: relative;
+    top: 16px;
+    bottom: 132px;
     width: 168px;
     height: 88px;
     border-color: #8E8F99;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
+
+.li-twitter {
+    position: relative;
+    bottom: 72px;
+    width: 168px;
+    height: 88px;
+    left: 45px;
+}
+
+
+.li-facebook {
+    width: 168px;
+    height: 88px;
+    position: relative;
+    bottom: 162px;
+    left: 80px;
+}
+
+.li-li {
+    width: 168px;
+    height: 88px;
+    position: relative;
+    bottom: 250px;
+    left: 120px;
+}
+
 
 
 /* PORTFOLIO */
